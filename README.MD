@@ -3,7 +3,7 @@
 ## Introduction
 
 __This repository is a accompanying note for our local JavaScript usergroup meeting__,\
-feel free to use it anyways, no tacking backsies though 😉
+feel free to use it anyways, no tacking baksies though 😉
 
 Each folder represents a Slide of the talk, in includes extensive comments.\
 feel free to contact me via [e-mail](mailto:mail@hans-koch.me) or open a issue if you got any questions. 
@@ -36,8 +36,7 @@ feel free to contact me via [e-mail](mailto:mail@hans-koch.me) or open a issue i
   - [Bootstrap + Vue](https://bootstrap-vue.js.org/)
 - Learn material
   - VueJs
-    - [Book - The Majesty of Vue.js 2
-](https://leanpub.com/vuejs2)
+    - [Book - The Majesty of Vue.js 2](https://leanpub.com/vuejs2)
     - [Online Course](https://vueschool.io/)
   - JavaScript
     - [Book/Git Repository - You Don't know JS (Free and really, really good)](https://github.com/getify/You-Dont-Know-JS)
