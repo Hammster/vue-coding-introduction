@@ -33,7 +33,7 @@ new Vue({
   template: 
   `<div>
     <div>Counter: {{$store.state.count}}</div>
-    <button v-on:click="$store.commit('increment')">Add</button>
+    <button v-on:click="$store.state.count++">Add</button>
     <button v-on:click="$store.commit('decrement')">Remove</button>
   </div>`
 })

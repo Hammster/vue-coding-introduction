@@ -1,4 +1,9 @@
+// Defining a Component Instance, this is also the instance Object you would export
+// for modular loader.
 const MenuComponent = Vue.component('MenuComponent', {
+  // A parsed binding, these are meant to be read-only
+  // if you want to have a local copy of them they can be accessed within data
+  // Vue will only warn you via a console warning if you change them!
   props: [
     'items'
   ],
@@ -20,6 +25,9 @@ const MenuComponent = Vue.component('MenuComponent', {
 
 new Vue({
   el: '#app',
+  // A component needs to be linked to a Vue instance.
+  // the name is also corresponding the the tag you need 
+  //to use to call the Component from within the template. 
   components: {
     MenuComponent
   },

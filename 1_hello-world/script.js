@@ -3,6 +3,7 @@ new Vue({
   // Root Element
   el: '#app',
   // Instanced Data (Adds reactive magic to the variable)
+  // These are bound to this Vue Instance, or Vue Component instance
   data: {
     message: 'Hello World from Vue!'
   },
